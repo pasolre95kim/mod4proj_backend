@@ -16,7 +16,7 @@ Venue.create(name: "Kimpton Hotel", contact: "TheKimptonhotel@gmail.com", locati
 Venue.create(name: "Loews Smith Hotel", contact: "LMadisonhotel@gmail.com", location: "Washington, DC", price_range: "$16,000 - $29,000", capacity: "100", image: "https://media.brides.com/photos/58765fc035c5b9295a8595e6/master/w_767,c_limit/9a%2520-%2520Rainbow%2520Room.JPG")
 
 Venue.create(name: "Odyssey DC", contact: "OdysseyDC@gmail.com", location: "Washington, DC", price_range: "$8,000 - $17,000", capacity: "200", image: "https://media.brides.com/photos/58767533610103574cf9110d/master/w_767,c_limit/1%2520-%2520The%2520Hay-Adams.jpg")
-Venue.create(name: "The Loft", contact: "The_Loft300@gmail.com", location: "Washington, DC", price_range: "$6,000 - $9,000", capacity: "250", image: "https://greenweddingshoes.com/wp-content/uploads/2015/02/Haiku_mill_wedding_venue.jpg")
+Venue.create(name: "The Loft", contact: "The_Loft300@gmail.com", location: "Washington, DC", price_range: "$6,000 - $9,000", capacity: "250", image: "https://www.partybravo.com/uploads/news-pictures/--blog-post-image-20170203113836.jpg")
 Venue.create(name: "Darcy Gallery", contact: "DarcyGalleryVenue@gmail.com", location: "Georgetown, DC", price_range: "$4,000 - $6,000", capacity: "100", image: "https://purewows3.imgix.net/images/articles/2017_02/wedding_florida.jpg?auto=format,compress&cs=strip")
 
 Venue.create(name: "The Whitehall", contact: "whitehallNY@gmail.com", location: "New York, NY", price_range: "$12,000 - $25,000", capacity: "300", image: "https://purewows3.imgix.net/images/articles/2017_02/wedding_maryland.jpg?auto=format,compress&cs=strip")
