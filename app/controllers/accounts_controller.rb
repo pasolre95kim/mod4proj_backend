@@ -24,6 +24,6 @@ class AccountsController < ApplicationController
 private
 
   def accounts_params
-    params.require(:account).permit()
+    params.require(:account).permit(:bride, :groom)
   end
 end

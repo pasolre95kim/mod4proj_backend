@@ -13,8 +13,8 @@ class ProposesController < ApplicationController
   end
 
   def update
-  Propose.find(params[:id]).update(proposes_params)
-   render json: Propose.find(params[:id])
+    Propose.find(params[:id]).update(proposes_params)
+    render json: Propose.find(params[:id])
   end
 
   def destroy
@@ -25,7 +25,7 @@ class ProposesController < ApplicationController
   private
 
   def proposes_params
-    params.require(:propose).permit(:account_id, :venue_id)
+    params.require(:propose).permit(:account_id, :venue_id, :cake, :flower, :theme)
   end
 
 end
